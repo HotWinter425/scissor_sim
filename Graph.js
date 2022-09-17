@@ -49,7 +49,8 @@ let myChart = new Chart(ctx, {
       datasets: [{
         data: data,
         backgroundColor: 'rgb(6, 62, 123)',
-        borderColor: 'rgb(6, 62, 123)'
+        borderColor: 'rgb(6, 62, 123)',
+        label: 'Movimento em x e y'
       }]
     },
     options: {
